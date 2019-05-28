@@ -1149,7 +1149,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/lovelynewyork.jpeg");
+			background-image: url("../../images/lovelynewyork.webp");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1652,19 +1652,31 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		/* Create two equal columns that floats next to each other */
-   .project-column {
+
+   /* .project-column {
      float: left;
      width: 50%;
      padding: 10px;
     }
 
-/* Clear floats after the columns */
+
   .project-row:after {
      content: "";
      display: table;
      clear: both;
-  }
+  } */
+
+	.bb {
+		border-bottom: 1px solid ghostwhite;
+		margin-bottom: 20px;
+	}
+
+	blockquote {
+		border: 1px solid ghostwhite;
+		list-style: circle;
+		padding: 20px;
+	}
+
 
   .loader-wrapper {
   width: 100%;
