@@ -243,7 +243,7 @@ svg {
   filter: drop-shadow(0 0 4px #00ffff) drop-shadow(0 0 12px #00ffff);
 }
 
-br {
+.desktop-off {
   display: none;
 }
 
