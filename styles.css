@@ -255,7 +255,7 @@ svg {
     text-align: center;
     font-size: 1.6rem;
   }
-  br {
+  .desktop-off {
     display: block;
   }
 }
