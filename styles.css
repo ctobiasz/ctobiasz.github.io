@@ -256,6 +256,6 @@ svg {
     font-size: 1.6rem;
   }
   .desktop-off {
-    display: block;
+    display: block !important;
   }
 }
